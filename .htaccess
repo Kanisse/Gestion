@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^acceuil$ View/index.html
+RewriteRule ^user$ Controller/classes/Produits.php
+RewriteRule ^admin$ View/admin.html
+RewriteRule ^Produits$ Controller/classes/Produits.php
+RewriteRule ^Connexion$ Controller/Connexion.php
+RewriteRule ^.{0}$ View/entete.html
