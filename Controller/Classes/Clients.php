@@ -14,7 +14,7 @@ class Clients {
 	
 	function __construct($Nom, $Prenom, $Age, $Adresse, $Telephone) {
 
-		$this->Nom=$Nom;
+		$this->Test=$Nom;
 		$this->Prenom=$Prenom;
 		$this->Age=$Age;
 		$this->Adresse=$Adresse;
