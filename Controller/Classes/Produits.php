@@ -5,9 +5,9 @@ class Produits{
 	public $PU;
 	public $Categorie;
 
-	function __construct($Nom_Prod,$PU_Prod,$Cat_Prod){
-$this->Nom=$Nom_Prod;
-$this->PU=$PU_Prod;
+	function __construct($Produit1,$Produit2,$Cat_Prod){
+$this->Nom=$Produit1;
+$this->PU=$Produit2;
 $this->Categorie=$Cat_Prod;
 	}
 	
