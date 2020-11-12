@@ -1,21 +1,39 @@
+
 <?php
 
-class Clients{
+/**
+ * 
+ */
+class Clients {
+
 	public $Nom;
 	public $Prenom;
-	public $Tel;
-	public $adresse;
-
-	function __construct($Nom,$Prenom,$Tel,$adresse){
-$this ->Nom=$Nom;
-$this ->Prenom=$Prenom;
-$this ->Tel=$Tel;
-$this ->adresse=$adresse
-	}
+	public $Age;
+	public $Adresse;
+	public $Telephone;
 	
-public function Afficher(){
-echo "Le nom est : ".$this->Nom." le prenom est ".$this->Prenom." le tel est  ".$this->Tel. "l'adresse est est : ". $this ->adresse. "<br>";
-}
+	function __construct($Nom, $Prenom, $Age, $Adresse, $Telephone) {
+
+		$this->Nom=$Nom;
+		$this->Prenom=$Prenom;
+		$this->Age=$Age;
+		$this->Adresse=$Adresse;
+		$this->Telephone=$Telephone;
+
+	}
+
+	public function Afficher() {
+
+		echo "Le client se nome ".$this->Nom." ".$this->Prenom.". Il est âgé de ".$this->Age."ans, Il habite à ".$this->Adresse." et vous pouvez le joindre au contact suivant: ".$this->Telephone."<br>";
+
+	}
 
 }
+
+$E1 = new Clients ("FOFANA", "Sékou Ahmed Tidiane", "22", "Salé", "0605676253");
+$E2 = new Clients ("Aly", "Camara", "33", "Rabat", "0678745654");
+
+$E1->Afficher();
+$E2->Afficher();
+
 ?>
