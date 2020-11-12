@@ -1,9 +1,9 @@
 <?php
 
-class Produits{
+class Clients{
 	public $Nom;
-	public $PU;
-	public $Categorie;
+	public $Prenom;
+	public $Tel;
 
 	function __construct($Nom_Prod,$PU_Prod,$Cat_Prod){
 $this->Nom=$Nom_Prod;
