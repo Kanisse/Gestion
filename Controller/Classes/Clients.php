@@ -9,7 +9,7 @@ class Clients{
 	function __construct($Nom,$Prenom,$Tel,$adresse){
 $this ->Nom=$Nom;
 $this ->Prenom=$Prenom;
-$this ->Tel=Tel;
+$this ->Tel=$Tel;
 $this ->adresse=$adresse
 	}
 	
